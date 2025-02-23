@@ -33,3 +33,18 @@ body {
     color: hsl(216, 15%, 48%);
     font-size: 10px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 8%;
+    }
+
+    .container h1 {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        font-size: 0.9rem;
+    }
+}
